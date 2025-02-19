@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.Helpers.Action;
 
-public class ProductPage {
+public class AmazonProductPage {
 
 	WebDriver driver;
 	Action action;
@@ -23,7 +23,7 @@ public class ProductPage {
 	@FindBy(xpath = "//span[@class='a-truncate-cut']")
 	WebElement productTitle;
 
-	public ProductPage(WebDriver driver) {
+	public AmazonProductPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}

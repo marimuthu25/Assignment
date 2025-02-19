@@ -13,14 +13,14 @@ import org.testng.annotations.Test;
 import com.Helpers.Action;
 import com.base.Baseclass;
 import com.pages.AmazonHomePage;
-import com.pages.ProductPage;
-import com.pages.SearchResultpage;
+import com.pages.AmazonProductPage;
+import com.pages.AmazonSearchResultpage;
 import com.utils.UtilityClass;
 
 public class AmazonTest extends Baseclass {
 	AmazonHomePage amazonHomepage;
-	SearchResultpage searchresultPage;
-	ProductPage productPage;
+	AmazonSearchResultpage searchresultPage;
+	AmazonProductPage productPage;
 	UtilityClass utility;
 	Action action;
 	TestData testData;
@@ -29,8 +29,8 @@ public class AmazonTest extends Baseclass {
 	public void setupTest() {
 		SetUP("edge", "https://www.amazon.in/");
 		amazonHomepage = new AmazonHomePage(driver);
-		searchresultPage = new SearchResultpage(driver);
-		productPage = new ProductPage(driver);
+		searchresultPage = new AmazonSearchResultpage(driver);
+		productPage = new AmazonProductPage(driver);
 		utility = new UtilityClass(driver);
 
 	}

@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.Helpers.Action;
 
-public class SearchResultpage {
+public class AmazonSearchResultpage {
 	WebDriver driver;
 	Action action;
 	
@@ -20,7 +20,7 @@ public class SearchResultpage {
 	@FindBy(xpath=" //div[@id='centerCol']//span[@class='a-size-base a-color-base']")
 	WebElement firstProductRating;
 	
-	public SearchResultpage(WebDriver driver) {
+	public AmazonSearchResultpage(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
