@@ -43,6 +43,12 @@ public class AmazonTest extends Baseclass {
 		System.out.println("First Product Price is   " + searchresultPage.getFirstProductPrice());
 
 		System.out.println("First Product Rating is   " + searchresultPage.getFirstproductRating());
+		
+		try {
+			utility.takescreenshot("First_product");
+		} catch (IOException e) {
+			System.out.println("Failed to take screen shot:  " + e.getMessage());
+		}
 
 		productPage.ClickaddToCardButton();
 		productPage.clickCardButton();
