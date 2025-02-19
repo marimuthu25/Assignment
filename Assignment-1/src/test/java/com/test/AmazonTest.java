@@ -27,7 +27,7 @@ public class AmazonTest extends Baseclass {
 
 	@BeforeMethod
 	public void setupTest() {
-		SetUP("edge", "https://www.amazon.in/");
+		SetUP("edge",TestData.AMAZON_URL);
 		amazonHomepage = new AmazonHomePage(driver);
 		searchresultPage = new AmazonSearchResultpage(driver);
 		productPage = new AmazonProductPage(driver);
