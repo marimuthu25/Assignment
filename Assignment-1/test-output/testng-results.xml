@@ -2,100 +2,46 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-18T15:27:09 IST" name="Default suite" finished-at="2025-02-18T15:27:16 IST" duration-ms="6888">
+  <suite started-at="2025-02-19T13:37:52 IST" name="Default suite" finished-at="2025-02-19T13:38:04 IST" duration-ms="11803">
     <groups>
     </groups>
-    <test started-at="2025-02-18T15:27:09 IST" name="Default test" finished-at="2025-02-18T15:27:16 IST" duration-ms="6888">
+    <test started-at="2025-02-19T13:37:52 IST" name="Default test" finished-at="2025-02-19T13:38:04 IST" duration-ms="11803">
       <class name="com.test.AmazonTest">
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.test.AmazonTest@44ebcd03]" started-at="2025-02-18T15:27:09 IST" name="setupTest" finished-at="2025-02-18T15:27:16 IST" duration-ms="6823" status="FAIL">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.test.AmazonTest@8f4ea7c]" started-at="2025-02-19T13:37:52 IST" name="setupTest" finished-at="2025-02-19T13:38:04 IST" duration-ms="11757" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 124
-Current browser version is 133.0.3065.69 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'CHNMCT593190L', ip: '10.81.46.195', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: driver.version: EdgeDriver
-remote stacktrace: GetHandleVerifier [0x00007FF6A99CE4D2+63026]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A9960FA2+213762]
-(No symbol) [0x00007FF6A978E7A7]
-(No symbol) [0x00007FF6A97C6B7F]
-(No symbol) [0x00007FF6A97C6038]
-(No symbol) [0x00007FF6A97C06C0]
-(No symbol) [0x00007FF6A97BD147]
-(No symbol) [0x00007FF6A97FEE2C]
-(No symbol) [0x00007FF6A97F4B43]
-(No symbol) [0x00007FF6A97CA33E]
-(No symbol) [0x00007FF6A97C94EC]
-(No symbol) [0x00007FF6A97C9EF1]
-Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6A9B75704+1025348]
-(No symbol) [0x00007FF6A983F29C]
-Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6A98DBD3C+34028]
-Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6A98D4525+3285]
-Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6A9B746C5+1021189]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A9969A61+249281]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A99654E4+231492]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A996561B+231803]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A995B245+189861]
-BaseThreadInitThunk [0x00007FFFB37E259D+29]
-RtlUserThreadStart [0x00007FFFB3AEAF38+40]
-]]>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 124
+Current browser version is 133.0.3065.69 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
+Host info: host: 'CHNMCT593190L', ip: '10.81.45.233'
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 124
-Current browser version is 133.0.3065.69 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'CHNMCT593190L', ip: '10.81.46.195', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: driver.version: EdgeDriver
-remote stacktrace: GetHandleVerifier [0x00007FF6A99CE4D2+63026]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A9960FA2+213762]
-(No symbol) [0x00007FF6A978E7A7]
-(No symbol) [0x00007FF6A97C6B7F]
-(No symbol) [0x00007FF6A97C6038]
-(No symbol) [0x00007FF6A97C06C0]
-(No symbol) [0x00007FF6A97BD147]
-(No symbol) [0x00007FF6A97FEE2C]
-(No symbol) [0x00007FF6A97F4B43]
-(No symbol) [0x00007FF6A97CA33E]
-(No symbol) [0x00007FF6A97C94EC]
-(No symbol) [0x00007FF6A97C9EF1]
-Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6A9B75704+1025348]
-(No symbol) [0x00007FF6A983F29C]
-Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6A98DBD3C+34028]
-Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6A98D4525+3285]
-Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6A9B746C5+1021189]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A9969A61+249281]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A99654E4+231492]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A996561B+231803]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A995B245+189861]
-BaseThreadInitThunk [0x00007FFFB37E259D+29]
-RtlUserThreadStart [0x00007FFFB3AEAF38+40]
-
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
-at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
-at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 124
+Current browser version is 133.0.3065.69 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
+Host info: host: 'CHNMCT593190L', ip: '10.81.45.233'
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:61)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:57)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:45)
 at com.base.Baseclass.SetUP(Baseclass.java:35)
-at com.test.AmazonTest.setupTest(AmazonTest.java:28)
+at com.test.AmazonTest.setupTest(AmazonTest.java:30)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -132,95 +78,41 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="AmazonFullFlow()[pri:0, instance:com.test.AmazonTest@44ebcd03]" started-at="2025-02-18T15:27:16 IST" name="AmazonFullFlow" finished-at="2025-02-18T15:27:16 IST" duration-ms="0" status="SKIP">
+        <test-method signature="AmazonFullFlow()[pri:0, instance:com.test.AmazonTest@8f4ea7c]" started-at="2025-02-19T13:38:04 IST" name="AmazonFullFlow" finished-at="2025-02-19T13:38:04 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 124
-Current browser version is 133.0.3065.69 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'CHNMCT593190L', ip: '10.81.46.195', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: driver.version: EdgeDriver
-remote stacktrace: GetHandleVerifier [0x00007FF6A99CE4D2+63026]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A9960FA2+213762]
-(No symbol) [0x00007FF6A978E7A7]
-(No symbol) [0x00007FF6A97C6B7F]
-(No symbol) [0x00007FF6A97C6038]
-(No symbol) [0x00007FF6A97C06C0]
-(No symbol) [0x00007FF6A97BD147]
-(No symbol) [0x00007FF6A97FEE2C]
-(No symbol) [0x00007FF6A97F4B43]
-(No symbol) [0x00007FF6A97CA33E]
-(No symbol) [0x00007FF6A97C94EC]
-(No symbol) [0x00007FF6A97C9EF1]
-Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6A9B75704+1025348]
-(No symbol) [0x00007FF6A983F29C]
-Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6A98DBD3C+34028]
-Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6A98D4525+3285]
-Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6A9B746C5+1021189]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A9969A61+249281]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A99654E4+231492]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A996561B+231803]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A995B245+189861]
-BaseThreadInitThunk [0x00007FFFB37E259D+29]
-RtlUserThreadStart [0x00007FFFB3AEAF38+40]
-]]>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 124
+Current browser version is 133.0.3065.69 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
+Host info: host: 'CHNMCT593190L', ip: '10.81.45.233'
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 124
-Current browser version is 133.0.3065.69 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'CHNMCT593190L', ip: '10.81.46.195', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: driver.version: EdgeDriver
-remote stacktrace: GetHandleVerifier [0x00007FF6A99CE4D2+63026]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A9960FA2+213762]
-(No symbol) [0x00007FF6A978E7A7]
-(No symbol) [0x00007FF6A97C6B7F]
-(No symbol) [0x00007FF6A97C6038]
-(No symbol) [0x00007FF6A97C06C0]
-(No symbol) [0x00007FF6A97BD147]
-(No symbol) [0x00007FF6A97FEE2C]
-(No symbol) [0x00007FF6A97F4B43]
-(No symbol) [0x00007FF6A97CA33E]
-(No symbol) [0x00007FF6A97C94EC]
-(No symbol) [0x00007FF6A97C9EF1]
-Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6A9B75704+1025348]
-(No symbol) [0x00007FF6A983F29C]
-Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6A98DBD3C+34028]
-Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF6A98D4525+3285]
-Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6A9B746C5+1021189]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A9969A61+249281]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A99654E4+231492]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A996561B+231803]
-Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6A995B245+189861]
-BaseThreadInitThunk [0x00007FFFB37E259D+29]
-RtlUserThreadStart [0x00007FFFB3AEAF38+40]
-
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
-at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
-at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 124
+Current browser version is 133.0.3065.69 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
+Host info: host: 'CHNMCT593190L', ip: '10.81.45.233'
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:61)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:57)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:45)
 at com.base.Baseclass.SetUP(Baseclass.java:35)
-at com.test.AmazonTest.setupTest(AmazonTest.java:28)
+at com.test.AmazonTest.setupTest(AmazonTest.java:30)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -257,6 +149,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AmazonFullFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.AmazonTest@8f4ea7c]" started-at="2025-02-19T13:38:04 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1739952484335" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.test.AmazonTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

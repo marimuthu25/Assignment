@@ -17,6 +17,7 @@ public class Baseclass {
 	public WebDriverWait wait;
 	protected static RemoteWebDriver driver;
 
+	@SuppressWarnings("deprecation")
 	public void SetUP(String browsername, String url) {
 
 		switch (browsername.toLowerCase()) {
@@ -31,7 +32,7 @@ public class Baseclass {
 			break;
 
 		case "edge":
-			WebDriverManager.edgedriver().setup();
+			WebDriverManager.edgedriver().clearResolutionCache().setup();
 			driver = new EdgeDriver();
 			break;
 
